@@ -1,0 +1,13 @@
+numbers=[12,45,78,96,100,132,23,2,1]
+
+smallest=None
+
+for num in numbers:
+    if smallest is None:
+        smallest=num
+
+    elif num < smallest:
+        smallest=num
+        
+
+print(smallest) 
