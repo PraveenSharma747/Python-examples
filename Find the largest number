@@ -1,0 +1,8 @@
+numbers=[12,45,78,96,100,132,23]
+largest=-1
+
+for num in numbers:
+    if num >largest:
+        largest=num
+
+print(largest) 
