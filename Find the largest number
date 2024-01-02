@@ -1,8 +1,12 @@
-numbers=[12,45,78,96,100,132,23]
-largest=-1
+numbers=[12,45,78,59,45,114,23]
+largest=None
 
 for num in numbers:
-    if num >largest:
-        largest=num
+    
+    if largest is None:
+        largest = num
+    
+    elif num > largest:
+        largest = num
 
 print(largest) 
