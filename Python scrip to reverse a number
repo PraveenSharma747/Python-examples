@@ -1,0 +1,12 @@
+
+#take input from user
+n = int(input("Enter a number to be reversed: "))
+
+reversed_number = 0
+
+while n!=0:
+    last_digit = n%10 #getting last digit of entered number using modulus operator(%)
+    reversed_number = reversed_number*10+last_digit
+    n = n//10 #removing last digit using floor division
+    
+print("The reversed number is: ",reversed_number)
