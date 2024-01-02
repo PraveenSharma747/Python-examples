@@ -1,0 +1,13 @@
+str = input("Enter a string: ")
+reverse = ""
+
+for char in str:
+   reverse = char + reverse
+   
+print(reverse)
+
+#Reverse a string using slice operator
+
+#reverse=str[::-1]
+#print(reverse)
+    
